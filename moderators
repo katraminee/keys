@@ -1,9 +1,17 @@
-return {
-  4166527196,
-  278161083,
+local keys = {}
+
+local mods = {
+	4166527196,
+	278161083,
 	991531344,
 	3534061886,
 	70842180,
 	4431130324,
 	1727843416
 }
+
+function keys.get()
+	return mods
+end
+
+return keys
